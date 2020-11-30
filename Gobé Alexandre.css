@@ -1,0 +1,284 @@
+.menu-nav{
+  margin-top: -16px;
+  margin-left:0px;
+  position: fixed;
+}
+.header-bg {
+  background-size: auto;
+  width: 110%;
+  height: 60px;
+  margin-top: 0px;
+  margin-left:0px;
+  position: fixed;
+ }
+
+.btn{
+  list-style-type: none;
+  display: inline-block;
+}
+
+.btn a{
+  text-decoration: none;
+  color: white;
+  font-family:'Montserrat', sans-serif;
+  font-weight: bold;
+  padding: 15px;
+  font-size: 14px;
+}
+
+.btn a::before{
+  content: "";
+  width: 0%;
+  height: 3px;
+  display: block;
+  background-color: #fff;
+  margin-bottom: 20px;
+  margin-top: -15px;   
+}
+
+.btn a:hover::before{
+  width: 80%;
+  transition: all 0.8s;
+}
+body{
+   margin: 0;
+   padding: 0;
+    font-family: 'montserrat', sans-serif;
+    background-color: white;
+    text-emphasis-color: darkgray;
+    width: 100%;
+ }
+
+p{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+	color:red;
+}
+ 
+h3{
+    text-align: center;
+	color:red;
+}
+p1{
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 100px;
+}
+    
+
+p.photo1{
+    margin-right: -100px;
+    margin-top: -30px;
+} 
+h2{
+    text-align: left;
+    margin-left: 10px;
+}
+p4{
+    text-align: left;
+    margin-left: 10px;
+	font-size: 100px;
+}
+
+
+hr{
+    width: 250px;
+    height:3px;
+    border:none;
+    background-color:#061354;
+    
+}
+p.txt{
+    text-align: left;
+    margin-left: 20px;
+}
+.progress-barHTML {
+	position: static;
+	width: 300px;
+	height: 1em;
+	background-color: darkgray;
+	border-radius: 1.5em;
+	color: white;
+    margin-left: 10px;
+   
+}
+
+.progress-barHTML::before {
+	content: attr(data-label);
+	display: flex;
+	align-items: center;
+	left: .5em;
+	top: .5em;
+	bottom: .5em;
+	width: calc(var(--width, 0) * 6%);
+	min-width: 2em;
+	max-width: calc(100% - 1em);
+	background-color: #061354;
+	border-radius: 0.2em;
+	padding: 0.5em;
+    margin-left: 1.2px;
+    
+}
+.progress-barCSS {
+	position: static;
+	width: 300px;
+	height: 1em;
+	background-color: darkgray;
+	border-radius: 1.5em;
+	color: white;
+    margin-left: 10px;
+   
+}
+
+.progress-barCSS::before {
+	content: attr(data-label);
+	display: flex;
+	align-items: center;
+	left: .5em;
+	top: .5em;
+	bottom: .5em;
+	width: calc(var(--width, 0) * 4%);
+	min-width: 2em;
+	max-width: calc(100% - 1em);
+	background-color: #061354;
+	border-radius: 0.2em;
+	padding: 0.5em;
+    margin-left: 1.2px;
+    
+}
+.progress-barPHP {
+	position: static;
+	width: 300px;
+	height: 1em;
+	background-color: darkgray;
+	border-radius: 1.5em;
+	color: white;
+    margin-left: 10px;
+   
+}
+
+.progress-barPHP::before {
+	content: attr(data-label);
+	display: flex;
+	align-items: center;
+	left: .5em;
+	top: .5em;
+	bottom: .5em;
+	width: calc(var(--width, 0) * 1%);
+	min-width: 2em;
+	max-width: calc(100% - 1em);
+	background-color: #061354;
+	border-radius: 0.2em;
+	padding: 0.5em;
+    margin-left: 1.2px;
+    
+}
+.progress-barCISCO {
+	position: static;
+	width: 300px;
+	height: 1em;
+	background-color: darkgray;
+	border-radius: 1.5em;
+	color: white;
+    margin-left: 10px;
+   
+}
+
+.progress-barCISCO::before {
+	content: attr(data-label);
+	display: flex;
+	align-items: center;
+	left: .5em;
+	top: .5em;
+	bottom: .5em;
+	width: calc(var(--width, 0) * 8%);
+	min-width: 2em;
+	max-width: calc(100% - 1em);
+	background-color: #061354;
+	border-radius: 0.2em;
+	padding: 0.5em;
+    margin-left: 1.2px;
+    
+}
+.progress-barIP {
+	position: static;
+	width: 300px;
+	height: 1em;
+	background-color: darkgray;
+	border-radius: 1.5em;
+	color: white;
+    margin-left: 10px;
+   
+}
+
+.progress-barIP::before {
+	content: attr(data-label);
+	display: flex;
+	align-items: center;
+	left: .5em;
+	top: .5em;
+	bottom: .5em;
+	width: calc(var(--width, 0) * 8%);
+	min-width: 2em;
+	max-width: calc(100% - 1em);
+	background-color: #061354;
+	border-radius: 0.2em;
+	padding: 0.5em;
+    margin-left: 1.2px;
+    
+}
+
+p.photo2{
+    margin-left: 800px;
+    margin-top: -250px;
+      
+}
+
+nav.lien {
+    list-style-type: none;
+}
+
+a{
+    color:dimgray;
+    text-decoration: none;
+	font-size:100px;
+	color:red;
+    
+}
+
+p.menuréseau{
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0px;
+    display: grid;
+    position: fixed;
+    top: 80%;
+    margin-left: 1150px;
+    margin-bottom: -100px;
+}
+    
+p.menu réseau img{
+    width: 10px;
+    height: 10px;
+}
+footer{
+
+background:red;
+position:absolute;
+bottom:0;
+width:100%;
+padding-top:50px;
+height:30px;
+
+
+}
+.lol{
+color:black;
+text-align: center;
+font-size: 10px;
+
+    
+}
+}
