@@ -6,7 +6,7 @@ Il vous permettra également de me contacter via le formulaire de contact, ou m�
 
 **À venir**: Au fur et à mesure de mon parcour je compléterais ce site.
 
-**Lien de déploiement Heroku**:https://alexandre-gobe.herokuapp.com/
+**Lien de déploiement Heroku**:  https://alexandre-gobe.herokuapp.com/
 
 Voici différents points de vue du site:
 
