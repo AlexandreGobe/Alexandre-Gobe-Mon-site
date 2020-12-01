@@ -3,7 +3,7 @@
   <head>
       <meta charset="utf-8">
       <title>Gobé Alexandre</title>
-      <link rel="stylesheet" href="Gob%C3%A9%20Alexandre.css">
+      <link rel="stylesheet" href="gobealexandre1.css">
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
   </head>
     
@@ -292,11 +292,15 @@
   }
   }
 ?>
+        
+        <br>
+        <br>
 <footer>
-		<a href="Mentions%20L%C3%A9gales%20(1).html">Mentions légales </a>
-          <p class="lol"> 2020 © Tous droits réservés|Politique de confidentialité</p>
-      
-      </footer>
+    <div class="footer"><p><a href="Mentions%20L%C3%A9gales%20(1).html">Mentions légales </a>
+          <p> 2020 © Tous droits réservés|Politique de confidentialité</p></div>
+		
+      </p>
+</footer>
 
 
     </body>

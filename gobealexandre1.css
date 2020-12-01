@@ -3,6 +3,7 @@
   margin-left:0px;
   position: fixed;
 }
+
 .header-bg {
   background-size: auto;
   width: 110%;
@@ -55,12 +56,12 @@ p{
 
 h1{
     text-align: center;
-	color:red;
 }
  
 h3{
-    text-align: center;
-	color:red;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 100px;
 }
 p1{
     text-align: left;
@@ -80,9 +81,11 @@ h2{
 p4{
     text-align: left;
     margin-left: 10px;
-	font-size: 100px;
 }
 
+p.CV{
+    text-align: center;
+}
 
 hr{
     width: 250px;
@@ -91,6 +94,7 @@ hr{
     background-color:#061354;
     
 }
+
 p.txt{
     text-align: left;
     margin-left: 20px;
@@ -241,13 +245,7 @@ nav.lien {
     list-style-type: none;
 }
 
-a{
-    color:dimgray;
-    text-decoration: none;
-	font-size:100px;
-	color:red;
-    
-}
+
 
 p.menuréseau{
     grid-template-columns: 1fr 1fr 1fr;
@@ -264,21 +262,12 @@ p.menu réseau img{
     height: 10px;
 }
 footer{
-
-background:red;
-position:absolute;
-bottom:0;
-width:100%;
-padding-top:50px;
-height:30px;
-
-
+    font-size: 15px;
+    color: black;
+    text-align: center;
 }
-.lol{
-color:black;
-text-align: center;
-font-size: 10px;
-
+body_Contact{
+    text-align: center;
     
 }
 }
